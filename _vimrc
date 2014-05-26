@@ -36,6 +36,8 @@ function MyDiff()
 endfunction
 
 "=============以下为gVim的常用设置选项=============
+"这里还有更多可参考的设置项,指的学习！  https://github.com/beiyuu/vimfiles/blob/master/_vimrc
+
 "编码设置
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin-1
@@ -69,6 +71,12 @@ set autoread
 
 "高亮当前行
 setlocal cursorline
+
+"set cursorline               "设置光标高亮显示
+"set cursorcolumn             "光标垂直高亮
+
+"彩色显示第85行
+"set colorcolumn=85           
 
 set number
 set background=dark
