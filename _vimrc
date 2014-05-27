@@ -132,7 +132,7 @@ map <F3> :NERDTreeToggle<CR>
 
 "php 代码自动补全  快捷键 Ctrl+X+O
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-"其他语言的注释
+"其他语言的补全
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
